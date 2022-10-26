@@ -1,0 +1,185 @@
+@media screen and (max-width: 1920px) {
+    $span-orange:#EA6628;
+    .block-form__section{
+      display: block;
+        margin-top: 37px;
+        margin-left: 526px;
+        width: 866px;
+        height: 260px;
+        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+        background: #FFFFFF;
+
+    }
+    .block-form__p-text_up{
+        display: block;
+        width: 397px;
+        height: 22px;
+        margin: 0;
+        .span_orange{
+            color:$span-orange ;
+        }
+    }
+    .block-form__section p:nth-child(2){
+        display: block;
+margin: 12px 0px 0px 0px;
+width: 629px;
+height: 30px;
+    }
+    form{
+        
+        padding-top: 57px;
+    padding-left: 59px;
+        width: 752px;
+        height: 142px;
+    }
+    form p:nth-child(2){
+width: 629px;
+height: 30px;
+
+
+    }
+    .block-form__div-inputs{
+        margin-top: 22px;
+        margin-left: 0px;
+display: flex;
+justify-content: space-between;
+width: 752px;
+height: 56px;
+.form-tel__input, .form-name__input{
+width: 240px;
+height: 56px;
+border: 1px solid #E5E5E5;
+border-radius: 4px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+color: #B1B1B1;
+display: flex;
+}
+    }
+    .block-form__button-sumbit_big{
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        width: 240px;
+        height: 56px;
+        background-color:  #215359;
+        border-radius: 4px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+    }
+    
+    .form-tel__input_add, .form-name__input_add{
+        width: 240px;
+        height: 56px;
+        border: 2px solid #ee0d0d;
+        border-radius: 4px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000;
+        display: flex;
+        background-color: #EA6628;
+        }
+}
+
+@media screen and (max-width: 768px) {
+    $span-orange:#EA6628;
+    .block-form__section{
+        display: block;
+          margin-top: 35px;
+          margin-left: 15px;
+          margin-right: 15px;
+          width: 738px;
+          height: 390px;
+          box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+          background: #FFFFFF;
+  
+      }
+      form{
+        
+        padding-top: 57px;
+    padding-left: 59px;
+        width: 629px;
+        height: 294px;
+    }
+    
+  
+      .block-form__p-text_up{
+          width: 629px;
+          height: 22px;
+          margin: 0;
+          text-align: center;
+          .span_orange{
+              color:$span-orange ;
+          }
+      }
+      .block-form__section p:nth-child(2){
+        display: block;
+margin: 12px 0px 0px 0px;
+width: 629px;
+height: 30px;
+text-align: center;
+    }
+
+    .block-form__div-inputs{
+        margin-top: 22px;
+        margin-left: 133px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 354px;
+height: 208px;
+.form-tel__input, .form-name__input{
+width: 354px;
+height: 56px;
+border: 1px solid #E5E5E5;
+border-radius: 4px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+color: #B1B1B1;
+display: flex;
+}
+    }
+    .block-form__button-sumbit_big{
+        display: flex;
+        margin-left: 57px;
+        align-items: center;
+        padding-left: 50px;
+        width: 240px;
+        height: 56px;
+        background-color:  #215359;
+        border-radius: 4px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+    }
+    .form-tel__input_add, .form-name__input_add{
+        width: 354px;
+        height: 56px;
+        border: 2px solid #ee0d0d;
+        border-radius: 4px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000;
+        display: flex;
+        background-color: #EA6628;
+        }
+}

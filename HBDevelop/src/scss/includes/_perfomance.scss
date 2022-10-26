@@ -1,0 +1,202 @@
+@media screen and (max-width: 1920px) {
+    .block-perfomance__section-work{
+        margin-left: 349px;
+        margin-top: 47px;
+        width: 1381px;
+        height: 634.08px;
+        flex-direction: column;
+        p{
+            font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 63px;
+color: #000000;
+width: 629px;
+height: 123px;
+display: flex;
+margin-top: 30px;
+margin-left: 0px;
+margin-bottom: 0px;
+flex-direction: column;
+span{
+    color: #AE2236;
+    text-transform: uppercase;
+}
+        }
+        ul{
+            margin-top: 39px;
+            display: flex;
+            flex-direction: column;
+            width: 513px;
+            height: 360px;
+            justify-content: space-between;
+            margin-bottom: 0px;
+            li{
+                list-style-type: none;
+                background-image: url(../image/Ellipse.svg);
+                background-repeat: no-repeat;
+                background-position: left;
+                padding-left: 17px;
+                font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000;
+margin-right: 0px;
+            }
+            li:nth-child(2n) {
+                margin-bottom: 39px;
+            }
+            li:nth-child(1){
+                margin-bottom: 39px;
+            }
+            li:nth-child(5){
+                margin-bottom: 39px;
+            }
+            li:nth-child(3){
+                width: 513px;
+                margin-bottom: 39px;
+            }
+            li:nth-child(7){
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .block-images__div{
+        width: 766px;
+        height: 541px;
+        position: relative;
+        left: 553px;
+        bottom: 520px;
+        margin-left: 46px;
+        img:nth-child(1){
+            height: 147.54px;
+            width: 36.03px;
+            position: relative;
+            left: 145.05px;
+            z-index: 1;
+        
+        }
+        img:nth-child(2){
+            width: 36.03px;
+            height: 147.54px;
+            position: relative;
+            top: 426px;
+            left: 568px;
+            z-index: 1;
+            
+        }
+        img:nth-child(3){
+            width: 766px;
+            height: 541px;
+            position: relative;
+    bottom: 151px;
+           
+        }
+        img:nth-child(4){
+            position: relative;
+            bottom: 986.5px;
+            z-index: 1;
+            left: 18px;
+            width: 77.51px;
+            height: 19.2;
+        }
+        img:nth-child(5){
+            position: relative;
+            z-index: 1;
+            width: 477px;
+            height: 459px;
+            bottom: 729.5px;
+            left: 110px;
+        }
+        img:nth-child(6){
+            position: relative;
+            z-index: 1;
+            width: 77.51px;
+            height: 19.2px;
+            bottom: 1007.8px;
+            left: 150px;
+            
+        }
+
+
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .block-perfomance__section-work{
+        margin-left: 16px;
+        margin-top: 19px;
+        width: 735px;
+        height: 434px;
+        flex-direction: column;
+        p{
+            font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 52px;
+color: #000000;
+width: 629px;
+height: 101px;
+display: flex;
+margin-top: 30px;
+margin-left: 0px;
+margin-bottom: 0px;
+flex-direction: column;
+span{
+    color: #AE2236;
+    text-transform: uppercase;
+}
+        }
+ul{
+    margin-top: 21px;
+    display: flex;
+    padding-left: 16px;
+    flex-direction: column;
+    width: 681px;
+    height: 312px;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    li{
+        list-style-type: none;
+        background-image: url(../image/Ellipse.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 17px;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000;
+margin-right: 0px;
+    }
+    li:nth-child(2n) {
+        margin-bottom: 0px;
+    }
+    li:nth-child(1){
+        margin-bottom: 0px;
+    }
+    li:nth-child(5){
+        margin-bottom: 0px;
+    }
+    li:nth-child(3){
+        width: 513px;
+        margin-bottom: 0px;
+    }
+    li:nth-child(7){
+        margin-bottom: 0px;
+    }
+}
+        } 
+
+
+    
+    .block-images__div{
+        display: none;
+    }
+}

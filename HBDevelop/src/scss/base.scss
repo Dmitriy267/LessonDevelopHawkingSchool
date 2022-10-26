@@ -1,0 +1,94 @@
+@import './includes/header';
+@import './includes/infoMontage';
+@import './includes/main';
+@import './includes/perfomance';
+@import './includes/montage';
+@import './includes/guarantee';
+@import './includes/form';
+@import './includes/sectionVideo';
+@import './includes/sectionPhoto';
+@import './includes/footer';
+
+
+//font-family: 'Montserrat', sans-serif;
+//font-family: 'Lato', sans-serif;
+
+@font-face {
+    src: url('../fonts/static/Lato-Bold.ttf');
+    font-family: "Lato Bold";
+}
+
+@font-face {
+    src: url('../fonts/static/Montserrat-Regular.ttf');
+    font-family: "Montserrat Regular";
+}
+@font-face {
+    src: url('../fonts/static/Montserrat-Medium.ttf');
+    font-family: "Montserrat Medium";
+}
+@font-face {
+    src: url('../fonts/static/Montserrat-SemiBold.ttf');
+    font-family: "Montserrat SemiBold";
+}
+@font-face {
+    src: url('../fonts/static/Montserrat-Bold.ttf');
+    font-family: "Montserrat Bold";
+}
+@font-face {
+    src: url('../fonts/static/Montserrat-ExtraBold.ttf');
+    font-family: "Montserrat ExtraBold";
+}
+@media screen and (max-width: 1920px) {
+    div{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+  padding: 0;
+  font-family: 'Montserrat Regular', Lato, Arial, Helvetica, sans-serif;
+  width: 1920px;
+    }
+    a{text-decoration: none;}
+    header, section, nav, footer{
+        display: flex;
+    }
+
+   
+        h1{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 73px;
+            color: #000000;
+            width: 652px;
+            height: 73px;
+            margin: 0px;
+
+        }
+
+    
+}
+@media screen and (max-width: 768px) {
+    body{
+        margin: 0;
+  padding: 0;
+  font-family: 'Montserrat Regular', Lato, Arial, Helvetica, sans-serif;
+  width: 768px;
+    }
+    div{
+        box-sizing: border-box;
+
+}
+a{text-decoration: none;}
+
+header, section, footer{
+    display: flex;
+}
+nav{
+    display: flex;
+}
+
+
+
+}

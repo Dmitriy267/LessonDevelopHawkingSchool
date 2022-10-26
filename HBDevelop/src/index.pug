@@ -1,0 +1,260 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Информационная страница
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@400;500;600;700;800&display=swap' rel='stylesheet')
+    
+   
+    
+  body
+    header
+      .block-logo_div
+        a(href='#')
+          img(src='../src/image/icons/logo.png' alt='Логотип сайта')
+      .block-menu__div
+        button.block-menu__button_circle
+          img(src='../src/image/Vector (15).svg' alt='Векторное изображение меню')
+          img(src='../src/image/Vector (15).svg' alt='Векторное изображение меню')
+          img(src='../src/image/Vector (15).svg' alt='Векторное изображение меню')
+        nav
+          ul
+            li
+              a(href='#') Каталог товаров
+            li
+              a(href='#') доставка и оплата
+            li
+              a(href='#') Цены
+            li
+              a(href='#') Контакты
+        .block-menu__div_right
+          p
+            | +7 (812) 
+            span 509 21 98
+          a.link-tel__a(href='tel:+7 (812) 509 21 98') перезвоните мне
+          .block-menu__icons-messenge
+            img(src='../src/image/icons/vk.svg' alt='Изображение иконки мессенджера вк')
+            img(src='../src/image/icons/telegram.svg' alt='Изображение иконки мессенджера телеграм')
+            img(src='../src/image/icons/instagram.svg' alt='Изображение иконки мессенджера инстаграм')
+            img(src='../src/image/icons/whatsapp.svg' alt='Изображение иконки мессенджера ватсапп')
+          .block-menu__div-icons-group
+            .block-menu__div-icons-element
+              img.block-menu__image-loupe(src='../src/image/icons/loupe.svg' alt='Изображение иконки лупы')
+            .block-menu__div-icons-element
+              img.block-menu__image-heart(src='../src/image/icons/heart.svg' alt='Изображение иконки сердца')
+            .block-menu__icon-shop
+              img(src='../src/image/icons/shop.svg' alt='Изображение иконки корзины')
+              p 10
+    section.block-info-montage__section
+      h1 Монтаж дымоходов
+      .block-info-montage__div
+        ul
+         li
+          a(href='#') Главная 
+         li
+          img(src='../src/image/right-arrow.svg' alt='Векторное изображение стрелки')
+         li
+          a(href='#') Монтаж дымоходов
+    main
+      p
+        | В 
+        span Дымоход.ру
+        |  вам помогут как приобрести, так и установить дымоход любой конфигурации. В нашем монтажном отделе, состоящим из трёх бригад работают квалифицированные специалисты, которые ежегодно проходят курсы повышения квалификации. Все работы проводим качественно и аккуратно, в короткий срок и на совесть .
+    section.block-perfomance__section-work
+      p(lang='en')
+        | Lorem ipsum dolor sit amet
+        span Lorem ipsum
+      ul
+        li Доступные цены
+        li Собственное производсвто Дымоходов 
+        li Выполнение необходимых работ, связанных с установкой камина, печи, котла 
+        li Гарантия (от трёх до десяти лет)
+        li Работаем чисто, аккуратно, убираем за собой, не сквернословим
+        li Только русские квалифицированные специалисты
+        li Устанавливаем любые дымоходы всех производителей
+      .block-images__div
+        img(src='../src/image/Group.svg' alt='Векторное изображение')
+        img(src='../src/image/Group.svg' alt='Векторное изображение')
+        img(src='../src/image/Blob.svg' alt='Векторное изображение')
+        img(src='../src/image/Triangle.svg' alt='Векторное изображение стрелки')
+        img(src='../src/image/image 3.png' alt='Изображение дымохода')
+        img(src='../src/image/Triangle.svg' alt='Векторное изображение стрелки')
+    section.block-install__section-montage
+      hr.hr_red
+      h2.title-montage__h2 Процесс выполнения монтажа
+      .block-install__div_common
+        .block-install__div_left
+          .block-install__div_first
+            p.numeric__p_first 1
+            p.text__p_first Рассчёт предварительной заявки
+          .block-install__div_second
+            p.numeric__p_second 2
+            p.text__p_second Замер объекта нашим инженером
+          .block-install__div_three
+            p.numeric__p_three 3
+            p.text__p_three
+              | Составление Коммерческого предложения по изделиям дымохода и окончательной сметы на работы
+        .block-install__div_right
+          .block-install__div_four
+            p.numeric__p_four 4
+            p.text__p_four Изготовление Дымохода, покраска (если требуется)
+          .block-install__div_five
+            p.numeric__p_five 5
+            p.text__p_five Изготовление Дымохода, покраска (если требуется)
+          .block-install__div_six
+            p.numeric__p_six 6
+            p.text__p_six Гарантийное обслуживание по соответствующем сроку
+    section.block-guarantee__section-info
+      hr.hr_red
+      h2 Почему Дымоход.ру?
+      p.block-guarantee__p-text_up
+        | В отличие от других производителей, мы ручаемся за качество продукции, т.к. все Дымоходы изготавливаются из качественной стали, проверенного теплоизолятора, по современной технологии плазменной сварки «встык»
+      .block-guarantee__div-info-common
+        .block-guarantee__div-info
+          img.block-guarantee__img_size-l(src='../src/image/guarantee 1.svg' alt='Изображение сертификата')
+          p.block-guarantee__p-text_bold-l Большой гарантийный срок
+          .block-text-guarantee__div_group
+           p
+            | Крепёж, стыковка элементов 
+            span  – 10 лет
+           p
+            | Сквозная коррозия труб 
+            span – 5 лет
+           p
+            | Гидроизоляция 
+            span  – 3 года
+        .block-guarantee__div-info
+          img.block-guarantee__img_size-m(src='../src/image/architect 1.svg' alt='Изображение работника')
+          p.block-guarantee__p-text_bold-m Помощь в покупке агрегата 
+          p.block-guarantee__p-text_middle
+            | (печи, камина, котла), а также качественной установке на объекте с последующим гарантийным сервисом
+        .block-guarantee__div-info
+          img.block-guarantee__img_size-s(src='../src/image/review 1.svg' alt='Изображение клиента')
+          p.block-guarantee__p-text_bold-s Реальные отзывы клиентов 
+          p.block-guarantee__p-text_right
+            | Убедитесь в добросовестности исполнения, прочитав Отзывы клиентов в специальном разделе.
+      .block-guarantee__div-info_bottom
+        p
+          span.text__span_black необходима консультация?
+        p  оставьте заявку или свяжитесь с нами в социальных сетях
+      .block-messengers__div-icons-orange
+          img(src='../src/image/icons/orange/vk.svg' alt='Изображение иконки мессенджера вк')
+          img(src='../src/image/icons/orange/telegram.svg' alt='Изображение иконки мессенджера телеграм')
+          img(src='../src/image/icons/orange/instagram.svg' alt='Изображение иконки мессенджера инстаграм')
+          img(src='../src/image/icons/orange/whatsapp.svg' alt='Изображение иконки мессенджера ватсапп')
+    section.block-form__section
+      form
+        p.block-form__p-text_up
+          | Для 
+          span(class='span_orange') консультации
+          |  заполните форму!
+        p И с Вами свяжутся в ближайшее время
+        .block-form__div-inputs
+         input.form-name__input(type='text' placeholder='Ваше имя' name='name' value='' pattern='^[А-Я][а-яё]{3,}')
+         input.form-tel__input(type='tel' placeholder='Ваш телефон' name='tel'  value=''   pattern='^8[0-9]{10}' )
+         button.block-form__button-sumbit_big(type='submit') оставить заявку
+    section.block-video__section
+      hr.hr_red
+      h2 Видео об установке
+      p(lang='en')
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .block-video__div_central
+         img(src='../src/image/Group 19 1.png' alt='Изображение видеоплеера')
+         img(src='../src/image/play-button-arrowhead.svg' alt='Изображение кнопки видеоплеера')
+         img(src="../src/image/Blob1.svg", alt="Векторное изображение облока")
+         img(src="../src/image/Blob1.svg", alt="Векторное изображение облока")
+         img(src="../src/image/Group.svg", alt="Векторное изображение")
+         img(src="../src/image/Group.svg", alt="Векторное изображение")  
+    section.block-photo__section
+      hr.hr_red
+      h2 Фото выполненных работ
+      p(lang='en')
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .block-photo__div_common
+        .block-photos__div_top
+          img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+          img(src='../src/image/Rectangle 197 (1).jpg' alt='Изображение дымохода')
+          img(src='../src/image/Rectangle 197 (2).jpg' alt='Изображение дымохода')
+          img(src='../src/image/Rectangle 197 (3).jpg' alt='Изображение дымохода')
+        .block-photos__div_bottom
+          img(src='../src/image/Rectangle 197 (4).jpg' alt='Изображение дымохода')
+          img(src='../src/image/Rectangle 197 (5).jpg' alt='Изображение дымохода')
+          img(src='../src/image/Rectangle 197 (6).jpg' alt='Изображение дымохода')
+          img(src='../src/image/Rectangle 197 (7).jpg' alt='Изображение дымохода')
+      .block-photos__div_mobile 
+        img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+        img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+        img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+        img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+        img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+        img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+        img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+        img(src='../src/image/Rectangle 197.jpg' alt='Изображение дымохода')
+    footer
+      .block-navigation__div_bottom
+        .block-navigation__div_left
+          p КАТАЛОГ
+          .block-navigation__div-catalog
+           ul
+             li
+              a(href='#') Дымоходы
+             li 
+              a(href='#') Дымососы
+             li
+              a(href='#') Печи для дома
+             li
+              a(href='#') Печи для бани
+           ul
+             li
+              a(href='#') Камины
+             li
+              a(href='#') Силикат кальция
+             li
+              a(href='#') Котлы
+             li
+              a(href='#') Ещё
+        .block-navigation__div_middle
+          p ИНФОРМАЦИЯ
+          .block-navigation__div-info
+           ul
+             li
+              a(href='#') Каталог
+             li
+              a(href='#') Установка и монтаж
+             li
+              a(href='#') Отзывы
+             li
+              a(href='#') Ликвидация товара
+           ul
+             li
+              a(href='#') Полезное
+             li
+              a(href='#') Контакты
+             li
+              a(href='#') Оплата и доставка
+        .block-navigation__div_right
+          p ВРЕМЯ РАБОТЫ
+          ul
+            li 
+              span пн-пт 
+              |9:00 – 20:00   
+              span сб-вс
+              |10:00 – 18:00
+            li
+              a(href='#') г. Санкт - Петербург ,ул. Тамбасова д.7
+          .block-messengers__div-icons-colors
+            img(src='../src/image/icons/vk.svg' alt='Изображение иконки мессенджера вк')
+            img(src='../src/image/icons/telegram.svg' alt='Изображение иконки мессенджера телеграм')
+            img(src='../src/image/icons/instagram.svg' alt='Изображение иконки мессенджера инстаграм')
+            img(src='../src/image/icons/whatsapp.svg' alt='Изображение иконки мессенджера ватсапп')
+      .block-mobil__div-icons_middle 
+        img(src='../src/image/icons/mobile/vk.svg' alt='Изображение иконки мессенджера вк')
+        img(src='../src/image/icons/mobile/telegram.svg' alt='Изображение иконки мессенджера телеграм')
+        img(src='../src/image/icons/mobile/instagram.svg' alt='Изображение иконки мессенджера инстаграм')
+        img(src='../src/image/icons/mobile/whatsapp.svg' alt='Изображение иконки мессенджера ватсапп')   
+    script(src='../src/js/index.js')
+        
